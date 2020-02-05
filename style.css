@@ -1,55 +1,53 @@
-.align{
-position: relativem
-margin-left: 120px;
-}
-.Nav{
+.chart1{
+  list-style: none;
+  background-color: black;
+  height: 60px;
+  width: 500px;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
   position: relative;
 }
 
-.Nav ul{
-  padding: 0px;
-  margin: 0px;
-  margin-left: -10px;
-}
-
-.Nav li{
+.chart1 li{
   display: inline-block;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-right: -6px;
-  background-color: black;
-}
-
-.Nav li a{
   color: white;
-  text-decoration: none;
-}
-
-.TopNav ul{
-  margin: : 0 0 0 1%;
+  width: 25%;
+  float: left;
   height: inherit;
-}
-.TopNav li{
-  display: inline-block;
-  float: right;
-  padding: 0.3%;
-  margin-left: 4px;
-  font-size: 0.7em;
-  background-color: black;
-  width: 5%;
-  text-align: center;
-}
-.TopNav li a{
-  text-decoration: none;
-  color: white;
+  cursor: pointer;
 }
 
-.SubNav{
-  display: none;
-
+.chart1 li a{
+  position: relative;
+  top: 30%;
+  /* 나중에 inline-block 안에서 글자중앙 정렬하는거 찾자 */
 }
-.Nav li:hover ul {
+
+.chart1 li:hover {
+  color: red;
   display: block;
+  visibility: visible;
+}
+.chart1-1 {
+  display: none;
+}
+
+.chart2{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  width: 150px;
+  float: right;
+  margin: 0;
+}
+
+.chart2 li{
+  background-color: black;
+  display: inline-block;
+  color: white;
+  margin-right: 15%;
+  padding: 1%;
+  cursor: pointer;
 }
