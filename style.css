@@ -1,53 +1,95 @@
-.chart1{
+.chart1 {
   list-style: none;
-  background-color: black;
-  height: 60px;
-  width: 500px;
   text-align: center;
   display: inline-block;
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
   position: relative;
 }
 
-.chart1 li{
+.chart1 ul li {
   display: inline-block;
   color: white;
-  width: 25%;
-  float: left;
-  height: inherit;
+  width: 15%;
   cursor: pointer;
+  margin: 0;
 }
 
-.chart1 li a{
-  position: relative;
-  top: 30%;
-  /* 나중에 inline-block 안에서 글자중앙 정렬하는거 찾자 */
-}
-
-.chart1 li:hover {
-  color: red;
-  display: block;
-  visibility: visible;
-}
 .chart1-1 {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  height: inherit;
+}
+
+.chart1-1 li {
+  padding: 1.5%;
+  float: left;
+}
+
+.chart1-1-1 {
+  background-color: #228B22;
+}
+
+.chart1-1 .chart1-1-1:hover {
+  background-color: #3cb371;
+}
+
+.chart1-1-2 {
+  background-color: black;
+}
+
+.chart1-1 .chart1-1-2:hover {
+  background-color: #708090;
+}
+
+.chart1-1-3 {
+  background-color: black;
+}
+
+.chart1-1 .chart1-1-3:hover {
+  background-color: #708090;
+}
+.chart1-1-4 {
+  background-color: black;
+}
+
+.chart1-1 .chart1-1-4:hover {
+  background-color: #708090;
+}
+
+.chart1-2 {
   display: none;
 }
 
-.chart2{
-  list-style: none;
-  text-align: center;
+.chart1-3 {
+  width: 40%;
+  display: inline-block;
   padding: 0;
-  width: 150px;
-  float: right;
   margin: 0;
+  height: inherit;
+  float: right;
 }
 
-.chart2 li{
-  background-color: black;
-  display: inline-block;
-  color: white;
-  margin-right: 15%;
+.chart1-3 li {
   padding: 1%;
-  cursor: pointer;
+  float: left;
+}
+
+.chart1-3-1 {
+  background-color: #228B22;
+}
+
+.chart1 .chart1-3-1:hover {
+  background-color: #3cb371;
+}
+
+.chart1-3-2 {
+  background-color: black;
+}
+
+.chart1 .chart1-3-2:hover {
+  background-color: #708090;
 }
