@@ -39,6 +39,7 @@
 
 .chart1-1-2 {
   background-color: black;
+  position: relative;
 }
 
 .chart1-1 .chart1-1-2:hover {
@@ -60,8 +61,29 @@
   background-color: #708090;
 }
 
+.chart1-1-2:hover .chart1-2 {
+  display: block;
+}
+
 .chart1-2 {
   display: none;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  right: 64px;
+}
+
+.chart1-2 li {
+  background-color: black;
+  padding: 20% 160% 20% 40%;
+}
+
+.chart1-2 .chart1-2-1:hover {
+  background-color: #708090;
+}
+
+.chart1-2 .chart1-2-2:hover {
+  background-color: #708090;
 }
 
 .chart1-3 {
@@ -75,7 +97,6 @@
 
 .chart1-3 li {
   padding: 1%;
-  float: left;
 }
 
 .chart1-3-1 {
